@@ -1,0 +1,107 @@
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px black solid;
+}
+
+.message .user {
+    display: flex;
+    align-items: center;
+}
+
+.message .user h3 {
+    color: rgb(96, 95, 95);
+}
+
+.message img {
+    width: 30px;
+    border-radius: 20px;
+    margin: 4px;
+}
+.mainHome .message p {
+    min-height: 100px;
+}
+.message p {
+    background-color: #343435;
+    color: #F3F2FF;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    max-width: 350px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.message .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+.message .time h5{
+margin: none;
+}
+
+.mainDashboard button {
+    background-color: rgb(240, 232, 232);
+    border: none;
+    margin: 5px;
+    padding: 2px;
+    font-size: small;
+}
+
+/* MODIFY POST BUTTON */
+.delete {
+    color: rgb(236, 61, 61);
+}
+
+.edit {
+    color: rgba(101, 101, 230, 0.834);
+}
+
+/* COMMENTS */
+.mainComment {
+    display: flex;
+    justify-content: center;
+}
+.commentSection {
+    margin-left: 40px;
+}
+
+.commentSection .comment {
+    display: flex;
+    align-items:baseline;
+}
+.commentSection p {
+    width: 200px;
+    background-color: rgb(99, 99, 99);
+    margin: 5px;
+}
+
+.inputComment {
+    display: flex;
+    flex-direction: column;
+}
+.comment {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.comment p {
+    border: none;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.comments {
+    background-color: #ebecfa;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-bottom: 4px;
+    max-width: 350px;
+    border-radius: 30px;
+}
+

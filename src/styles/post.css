@@ -1,0 +1,35 @@
+.post {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.post form h2{
+    margin: 15px;
+    color:rgb(90, 86, 86);
+}
+.post form {
+    margin: 10%;
+}
+.post textarea {
+    height: 150px;
+    width: 50%;
+    background-color: rgb(85, 95, 105);
+    color: white;
+    padding: 10px;
+}
+textarea:focus {
+    animation-name: toblack;
+    animation-duration: 2s;
+    background-color: black;
+}
+@keyframes toblack {
+    from {background-color:  rgb(85, 95, 105);}
+    to {background-color: black;}
+  }
+
+.post form p{
+    font-size: small;
+}
+

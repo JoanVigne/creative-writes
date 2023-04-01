@@ -1,0 +1,22 @@
+
+#__next {
+  background-image: url('../img/wallpaperflare.com_wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.mainHome h1 {
+  color: #857DFF;
+}
+
+.mainDashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
